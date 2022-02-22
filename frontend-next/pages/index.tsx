@@ -32,9 +32,7 @@ export default function Home() {
             <Header />
           </div>
         </div>
-        <div
-          className={`${styles.bgSecondGradient} grid grid-cols-12 px-gridPadding gap-x-gridGap`}
-        >
+        <div className={`${styles.bgSecondGradient} px-gridPadding`}>
           <div id="skills" className="min-h-screen col-span-full">
             <Skills />
           </div>

@@ -18,6 +18,7 @@ module.exports = {
       black: "#000000",
       buttonBorder: "#E4DFFF",
       darkPurple: "#562AF0",
+      cardPurple: "#F8F6FF",
     },
     fontFamily: {
       sans: ["DM Sans", "sans-serif"],
@@ -55,7 +56,6 @@ module.exports = {
       gap: {
         gridGap: "var(--grid-gutter)",
       },
-      bg: {},
       padding: {
         gridPadding: "var(--grid-padding)",
       },
