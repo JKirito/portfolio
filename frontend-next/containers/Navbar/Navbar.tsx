@@ -1,25 +1,25 @@
 import React from "react";
 
-const Navbar = () => {
+const Navbar = ({ className }: { className: string }) => {
   return (
-    <div className="col-span-full grid grid-cols-12 gap-x-gridGap mt-11">
-      <div className="col-start-2 col-span-2">
-        <h1 className="text-title font-bold text-transparent text-gradient bg-gradient-to-r from-purple to-blue">
+    <div className="col-span-full grid grid-cols-12 gap-x-gridGap mt-11 overflow-hidden">
+      <div className="col-start-2 col-span-4 lg:col-span-2">
+        <h1 className="text-title font-bold text-transparent text-gradient bg-gradient-to-r from-purple to-blue select-none cursor-pointer">
           COMET
         </h1>
       </div>
-      <div className="col-start-10 -ml-20">
-        <ul className="list-none flex flex-row text-links">
-          <li className="px-[38px]">
+      <div className={`${className} ml-auto hidden xl:flex`}>
+        <ul className="list-none flex flex-row text-links h-full">
+          <li className="px-[38px] my-auto">
             <span className="cursor-pointer">SKILLS</span>
           </li>
-          <li className="px-[38px]">
+          <li className="px-[38px] my-auto">
             <span className="cursor-pointer">WORK</span>
           </li>
-          <li className="px-[38px]">
+          <li className="px-[38px] my-auto">
             <span className="cursor-pointer">ABOUT</span>
           </li>
-          <li className="px-[38px]">
+          <li className="pl-[38px] my-auto">
             <span className="cursor-pointer">CONTACT</span>
           </li>
         </ul>

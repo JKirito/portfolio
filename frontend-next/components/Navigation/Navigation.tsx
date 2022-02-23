@@ -13,7 +13,7 @@ const Navigation = () => {
     });
   };
   return (
-    <div className="fixed right-8 top-0 flex items-center justify-center min-h-screen">
+    <div className="fixed right-8 top-0 flex items-center justify-center min-h-screen z-20">
       <div>
         <div
           className={`w-3 h-3 my-5 rounded-full cursor-pointer transition-colors ${

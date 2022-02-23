@@ -9,10 +9,14 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+  // .placeholder {
+  // }
 }
 
 :root {
-  --grid-padding: 8.25rem;
+  --smallgrid-padding: 1.25rem;
+  --mediumgrid-padding: 4.25rem;
+  --largegrid-padding: 8.25rem;
   --grid-gutter: 1.25rem;
 }
 

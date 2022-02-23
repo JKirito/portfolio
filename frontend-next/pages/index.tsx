@@ -18,21 +18,21 @@ export default function Home() {
           {/* Fixed Social Icons */}
           <SocialsIcons />
         </div>
-        <div>
+        <div className="hidden md:block">
           {/* Navigation Dots */}
           <NavigationDots />
         </div>
         <div
-          className={`${styles.bgFrontGradient} grid grid-cols-12 px-gridPadding gap-x-gridGap`}
+          className={`${styles.bgFrontGradient} grid grid-cols-12 px-smallGridPadding md:px-mediumGridPadding lg:px-gridPadding gap-x-gridGap`}
         >
           <div id="navbar" className="col-span-full">
-            <Navbar />
+            <Navbar className="col-start-4 col-span-full" />
           </div>
           <div id="header" className="min-h-screen col-span-full">
             <Header />
           </div>
         </div>
-        <div className={`${styles.bgSecondGradient} px-gridPadding`}>
+        {/* <div className={`${styles.bgSecondGradient} px-gridPadding`}>
           <div id="skills" className="min-h-screen col-span-full">
             <Skills />
           </div>
@@ -44,8 +44,28 @@ export default function Home() {
           </div>
           <div id="footer" className="min-h-[90vh] col-span-full">
             <Footer />
+            <div className="grid grid-cols-12 mt-52">
+              <div className="col-start-1 col-span-6 mt-20">
+                <Navbar className="col-start-6" />
+              </div>
+              <div className="col-start-7 col-span-full flex flex-col items-end justify-center">
+                <p className="text-[23px] mr-32">
+                  Become a part of our community here👋
+                </p>
+                <div className="mt-2">
+                  <input
+                    type="text"
+                    className="py-7 px-5 pr-36 bg-[#F7F4FF] border-lightPurple border outline-none text-[23px] placeholder:text-[#DED3FF] "
+                    placeholder="Enter your email"
+                  />
+                  <button className="bg-ultraLightPurple rounded-[3px] text-projecthead ml-6 px-9 py-7">
+                    Go
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
+        </div> */}
       </main>
     </div>
   );

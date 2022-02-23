@@ -31,6 +31,13 @@ module.exports = {
           lineHeight: "81px",
         },
       ],
+      smallHeading: [
+        "58px",
+        {
+          lineHeight: "60px",
+        },
+      ],
+
       heading: [
         "36px",
         {
@@ -70,8 +77,11 @@ module.exports = {
       gap: {
         gridGap: "var(--grid-gutter)",
       },
+      bg: {},
       padding: {
-        gridPadding: "var(--grid-padding)",
+        gridPadding: "var(--largegrid-padding)",
+        smallGridPadding: "var(--smallgrid-padding)",
+        mediumGridPadding: "var(--mediumgrid-padding)",
       },
       gradientColorStops: (theme) => ({}),
     },

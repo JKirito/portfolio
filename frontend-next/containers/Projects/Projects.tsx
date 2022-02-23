@@ -10,7 +10,7 @@ const Projects = () => {
       return (
         <div
           key={`pr-${index}`}
-          className="rounded-3xl  flex p-3 py-4 w-[450px] bg-cardPurple flex-col items-center justify-center relative"
+          className="rounded-3xl  flex p-3 py-4 w-[320px] lg:w-[450px] bg-cardPurple flex-col items-center justify-center relative"
         >
           <div className="p-2 h-[413px] w-[413px]  relative">
             <Image
@@ -52,7 +52,7 @@ const Projects = () => {
           <span>Composed inspiring animations</span>
         </p>
       </div>
-      <div className="grid grid-cols-3 gap-y-8 gap-x-[108px] mt-[84px]">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-y-8 gap-x-[108px] mt-[84px]">
         {renderProjects()}
       </div>
     </>

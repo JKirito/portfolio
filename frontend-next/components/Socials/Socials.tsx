@@ -3,7 +3,7 @@ import { GithubIcon, LinkedinIcon, TwitterIcon } from "..";
 
 const Socials = () => {
   return (
-    <div className="fixed left-[2.68rem] bottom-[9.1rem] flex flex-col z-10">
+    <div className="fixed left-[1.26rem] bottom-[2.0rem] md:left-[2.68rem] md:bottom-[9.1rem] flex flex-col z-10">
       <div className="flex justify-center items-center mt-[43px] relative cursor-pointer">
         <div className="absolute -left-2 -top-[13px] w-[48px] h-[48px] border border-black rounded-full"></div>
         <TwitterIcon color="black" width={24} height={24} />

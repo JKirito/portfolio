@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-white rounded-[20px] min-h-[360px] p-16 flex flex-row justify-between">
+    <div className="bg-white rounded-[3px] min-h-[360px] p-16 flex flex-row justify-between">
       <div>
         <h2 className="text-[36px] font-medium">Discribe your project</h2>
         <p className="text-projecthead">
