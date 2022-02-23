@@ -27,7 +27,7 @@ const Header = () => {
         </div>
         <div className="mt-[95px]">
           {/* Button Here */}
-          <GeneralButton />
+          <GeneralButton text="Get in touch!" />
         </div>
       </div>
       <div className="col-start-9 w-full col-span-full mt-6">

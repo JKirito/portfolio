@@ -18,7 +18,8 @@ module.exports = {
       black: "#000000",
       buttonBorder: "#E4DFFF",
       darkPurple: "#562AF0",
-      cardPurple: "#F8F6FF",
+      cardPurple: "#F4F1FF",
+      grey: "#6C7CA2",
     },
     fontFamily: {
       sans: ["DM Sans", "sans-serif"],
@@ -51,6 +52,19 @@ module.exports = {
         },
       ],
       title: ["25px"],
+      projecthead: [
+        "20px",
+        {
+          letterSpacing: "-0.02rem",
+        },
+      ],
+      projectsub: [
+        "18px",
+        {
+          letterSpacing: "-0.02rem",
+          lineHeight: "19px",
+        },
+      ],
     },
     extend: {
       gap: {

@@ -2,7 +2,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.scss";
 import React from "react";
 import { Footer, Header, Navbar, Projects, Skills } from "../containers";
-import { NavigationDots, SocialsIcons } from "../components";
+import { GeneralButton, NavigationDots, SocialsIcons } from "../components";
 
 export default function Home() {
   return (
@@ -38,8 +38,11 @@ export default function Home() {
           </div>
           <div id="projects" className="min-h-screen col-span-full">
             <Projects />
+            <div className="flex flex-row my-[112px] justify-center items-center">
+              <GeneralButton text="See More Work" />
+            </div>
           </div>
-          <div id="footer" className="min-h-screen col-span-full">
+          <div id="footer" className="min-h-[90vh] col-span-full">
             <Footer />
           </div>
         </div>
