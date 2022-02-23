@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import skillData from "./skillData";
+import { motion } from "framer-motion";
 
 const renderSkills = () => {
   return skillData.map((el, idx) => {
@@ -31,14 +32,14 @@ const renderSkills = () => {
 const Skills = () => {
   return (
     <>
-      <div className="text-center pt-28">
+      <motion.div initial={{}} whileInView={{}} className="text-center pt-28">
         <h2 className="text-heading font-medium">Skill & Experiences</h2>
         <p className="text-subheading leading-[22px] mt-8">
           <span>Designed seamless interfaces, Built beautiful websites, &</span>
           <br />
           <span>Composed inspiring animations</span>
         </p>
-      </div>
+      </motion.div>
       <div className="grid grid-cols-8 gap-y-8 mx-32 mt-[84px]">
         {renderSkills()}
       </div>

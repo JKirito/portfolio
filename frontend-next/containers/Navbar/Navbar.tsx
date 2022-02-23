@@ -11,16 +11,24 @@ const Navbar = ({ className }: { className: string }) => {
       <div className={`${className} ml-auto hidden xl:flex`}>
         <ul className="list-none flex flex-row text-links h-full">
           <li className="px-[38px] my-auto">
-            <span className="cursor-pointer">SKILLS</span>
+            <span className="cursor-pointer hover:text-purple transition-colors">
+              SKILLS
+            </span>
           </li>
           <li className="px-[38px] my-auto">
-            <span className="cursor-pointer">WORK</span>
+            <span className="cursor-pointer hover:text-purple transition-colors">
+              WORK
+            </span>
           </li>
           <li className="px-[38px] my-auto">
-            <span className="cursor-pointer">ABOUT</span>
+            <span className="cursor-pointer hover:text-purple transition-colors">
+              ABOUT
+            </span>
           </li>
           <li className="pl-[38px] my-auto">
-            <span className="cursor-pointer">CONTACT</span>
+            <span className="cursor-pointer hover:text-purple transition-colors">
+              CONTACT
+            </span>
           </li>
         </ul>
       </div>

@@ -32,17 +32,17 @@ export default function Home() {
             <Header />
           </div>
         </div>
-        {/* <div className={`${styles.bgSecondGradient} px-gridPadding`}>
+        <div className={`${styles.bgSecondGradient} px-gridPadding`}>
           <div id="skills" className="min-h-screen col-span-full">
             <Skills />
           </div>
-          <div id="projects" className="min-h-screen col-span-full">
+          {/* <div id="projects" className="min-h-screen col-span-full">
             <Projects />
             <div className="flex flex-row my-[112px] justify-center items-center">
               <GeneralButton text="See More Work" />
             </div>
-          </div>
-          <div id="footer" className="min-h-[90vh] col-span-full">
+          </div> */}
+          {/* <div id="footer" className="min-h-[90vh] col-span-full">
             <Footer />
             <div className="grid grid-cols-12 mt-52">
               <div className="col-start-1 col-span-6 mt-20">
@@ -64,8 +64,8 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </div>
-        </div> */}
+          </div> */}
+        </div>
       </main>
     </div>
   );
