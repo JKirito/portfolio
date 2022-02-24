@@ -40,8 +40,10 @@ const Skills = () => {
           <span>Composed inspiring animations</span>
         </p>
       </motion.div>
-      <div className="grid grid-cols-8 gap-y-8 mx-32 mt-[84px]">
-        {renderSkills()}
+      <div className="">
+        <div className="grid grid-cols-4 lg:grid-cols-5 2xl:grid-cols-8 gap-y-8 mx-32 mt-[84px]">
+          {renderSkills()}
+        </div>
       </div>
     </>
   );
